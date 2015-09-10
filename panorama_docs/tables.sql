@@ -1,16 +1,45 @@
+create table projects (
+	id INT primary key AUTO_INCREMENT,
+	name VARCHAR(100),
+	is_active BOOLEAN,
+	remarks VARCHAR(150)
+);
+
+create table lineitems (
+	id INT primary key AUTO_INCREMENT,
+	name VARCHAR(100),
+	brdrequirements_id INT,
+	techdevneed_id INT,
+	contentneed_id INT,
+	trainingncommunicationplan_id INT,
+	capabilitiesenhancement_id INT,
+	costbenefit_id INT,
+	riskmitigationplan_id INT,
+	goliveplan_id INT,
+	closure_id INT
+);
+
+create table projects_lineitems_mapping (
+	id INT primary key AUTO_INCREMENT,
+	project_id INT,
+	lineitem_id INT,
+	is_active BOOLEAN,
+	remarks VARCHAR(100)
+);
+
 -- #1
 create table BRDRequirements (
-	id INT primary key,
+	id INT primary key AUTO_INCREMENT,
 	BRD_ref_number VARCHAR(15),
-	BRD_date DATETIME,				-- check if DATE is preferrable?
+	BRD_date DATE,				-- check if DATE is preferrable?
 	approved BOOLEAN,
 	approved_by VARCHAR(40),
-	approval_date DATETIME,			-- check if DATE is preferrable?
+	approval_date DATE,			-- check if DATE is preferrable?
 	stakeholders VARCHAR(122),
 	stakeholder_BU VARCHAR(100),
 	expected_impact_BU VARCHAR(100),
 	stakeholder_approved BOOLEAN,
-	stk_app_date DATETIME,			-- WTF is this?? check if DATE is preferrable?
+	stk_app_date DATE,			-- WTF is this?? Check if DATE is preferrable?
 	responsible VARCHAR(40),
 	accountable VARCHAR(40),
 	consulted VARCHAR(40),
@@ -22,8 +51,8 @@ create table TechDevNeed (
 	id INT primary key AUTO_INCREMENT,
 	tech_requirement BOOLEAN,
 	dev_time_estimate VARCHAR(40),
-	dev_start_date DATETIME,		-- check if DATE is preferrable?
-	dev_end_date DATETIME,			-- check if DATE is preferrable?
+	dev_start_date DATE,		-- check if DATE is preferrable?
+	dev_end_date DATE,			-- check if DATE is preferrable?
 	responsible VARCHAR(40),
 	accountable VARCHAR(40),
 	consulted VARCHAR(40),
@@ -48,11 +77,11 @@ create table TrainingNCommunicationPlan (
 	id INT primary key AUTO_INCREMENT,
 	communicated_to_user BOOLEAN,
 	internal_BU_communicated VARCHAR(122),
-	communication_sent_date DATETIME,	-- check if DATE is preferrable?
+	communication_sent_date DATE,	-- check if DATE is preferrable?
 	training_required BOOLEAN,
 	training_provided BOOLEAN,
-	training_start_date DATETIME,		-- check if DATE is preferrable?
-	training_end_date DATETIME,			-- check if DATE is preferrable?
+	training_start_date DATE,		-- check if DATE is preferrable?
+	training_end_date DATE,			-- check if DATE is preferrable?
 	responsible VARCHAR(40),
 	accountable VARCHAR(40),
 	consulted VARCHAR(40),
@@ -83,12 +112,12 @@ create table RiskMitigationPlan (
 	prelaunch_checklist VARCHAR(200),		-- Checklist is attachment. Store the url/storage location in DB
 	UAT_required BOOLEAN,					-- User Acceptance Testing
 	UAT_conducted_by VARCHAR(122),
-	UAT_date DATETIME, 					-- check if DATE is preferrable?
+	UAT_date DATE, 					-- check if DATE is preferrable?
 	vetted_by_stakeholders BOOLEAN,
 	feedback_taken_from VARCHAR(122),
 	feedback VARCHAR(200),
 	feedback_incorporated BOOLEAN,
-	feedback_incorporation_date DATETIME,	-- check if DATE is preferrable?
+	feedback_incorporation_date DATE,	-- check if DATE is preferrable?
 	final_UAT VARCHAR(40),
 	final_UAT_conducted_by VARCHAR(40),
 	final_sign_off BOOLEAN,
@@ -99,7 +128,7 @@ create table RiskMitigationPlan (
 -- #8
 create table GoLivePlan (
 	id INT primary key AUTO_INCREMENT,
-	launch_date DATETIME,				-- check if DATE is preferrable?
+	launch_date DATE,				-- check if DATE is preferrable?
 	post_launch_support_needed BOOLEAN,
 	post_launch_support_provided_by VARCHAR(40),
 	program_status VARCHAR(40),
@@ -111,7 +140,7 @@ create table GoLivePlan (
 -- #9
 create table Closure (
 	id INT primary key AUTO_INCREMENT,
-	program_closure_date DATETIME,		-- check if DATE is preferrable?
+	program_closure_date DATE,		-- check if DATE is preferrable?
 	program_closure_comment VARCHAR(100)
 );
 
