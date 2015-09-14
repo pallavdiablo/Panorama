@@ -1,4 +1,6 @@
 <?php
+
+	// fetch from RiskMitigationPlan table
 	class RiskMitigationPlan {
 		public $id, $name;
 		public $prelaunch_checklist;		// contains the link to the attachment

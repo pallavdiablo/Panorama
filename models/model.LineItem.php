@@ -8,7 +8,7 @@
 	require_once "model.CostBenefit.php";
 	require_once "model.RiskMitigationPlan.php";
 	require_once "model.GoLivePlan.php";
-	require_once "model.Closure.php";
+	require_once "model.ClosureModel.php";
 
 	class LineItem {
 		public $id, $name;

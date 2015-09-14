@@ -1,4 +1,6 @@
 <?php
+
+	// fetch data from BRDRequirements table
 	class BRDRequirement {
 		public $id, $name;
 		public $BRD_ref_number, $BRD_date;

@@ -1,4 +1,6 @@
 <?php
+
+	// fetch from CapabilitiesEnhancement table
 	class CapabilitiesEnhancement {
 		public $id, $name;
 		public $capability_enhancement;

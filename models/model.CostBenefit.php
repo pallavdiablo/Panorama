@@ -1,4 +1,6 @@
 <?php
+
+	// fetch from CostBenefit table
 	class CostBenefit {
 		public $id, $name;
 		public $checked_by, $cost_assigned_to_BU;

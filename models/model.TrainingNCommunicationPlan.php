@@ -1,4 +1,6 @@
 <?php
+
+	// fetch from TrainingNCommunicationPlan table
 	class TrainingNCommunicationPlan {
 		public $id, $name;
 		public $communicated_to_user, $internal_BU_communicated, $communication_sent_date;

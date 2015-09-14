@@ -1,4 +1,6 @@
 <?php
+
+	// fetch from ContentNeed table
 	class ContentNeed {
 		public $id, $name;
 		public $content_creation_enquired, $content_created_by;

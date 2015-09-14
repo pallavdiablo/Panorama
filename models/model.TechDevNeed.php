@@ -1,4 +1,6 @@
 <?php
+
+	// fetch from TechDevNeed table
 	class TechDevNeed {
 		public $id, $name;
 		public $tech_requirement;
