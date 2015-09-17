@@ -1,0 +1,93 @@
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xls
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xls
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xls
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/aa.xls
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:Error while opening the sheet from file /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xlsx
+INFO:root:File size is 0 bytes
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:Error Connecting to database while getting get_data_for_mail............
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:local variable 'query' referenced before assignment
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:query is select * from url where supc in (635169829015, 635188073696)
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:query is select * from url where supc in (635169829015, 635188073696, 'ashish')
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:query is select * from url where supc in (635169829015, 635188073696, 'ashish')
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:query is select * from url where supc in (635169829015, 635188073696, 'ashish')
+INFO:root:creating csv
+INFO:root:csv created successfully
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel (copy).xls
+INFO:root:query is select * from url where supc in (635169829015, 635188073696, 'ashish')
+INFO:root:creating csv
+INFO:root:csv created successfully
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:query is select * from url where supc in (635169829015, 635188073696, 'ashish')
+INFO:root:creating csv
+INFO:root:csv created successfully
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel (copy).xls
+INFO:root:query is select * from url where supc in (635169829015, 635188073696, 'ashish')
+INFO:root:creating csv
+INFO:root:csv created successfully
+INFO:root:going to read : /home/ashish/snapdeal/python/csvimagedownload/excel/excel.xls
+INFO:root:query is select * from url where supc in (635169829015, 635188073696, 'ashish')
+INFO:root:creating csv
+INFO:root:csv created successfully
