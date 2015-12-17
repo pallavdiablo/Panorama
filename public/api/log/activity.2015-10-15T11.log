@@ -1,0 +1,196 @@
+2015-10-15T11:24:25+05:30 :	GET request
+2015-10-15T11:24:25+05:30 :	Array
+(
+    [project] => _dummy_
+)
+
+2015-10-15T11:24:25+05:30 :	project name : _dummy_
+2015-10-15T11:24:25+05:30 :	Array
+(
+    [id] => 0
+    [name] => _dummy_
+    [remarks] => _dummy_
+    [lineItems] => Array
+        (
+            [0] => LineItem Object
+                (
+                    [id] => 0
+                    [name] => _dummy_
+                    [BRDRequirementObject] => BRDRequirement Object
+                        (
+                            [id] => 0
+                            [name] => 
+                            [BRD_ref_number] => _dummy_
+                            [BRD_date] => 2014-12-31
+                            [approved] => 1
+                            [approved_by] => _dummy_
+                            [approval_date] => 2014-12-31
+                            [stakeholders] => _dummy_
+                            [stakeholder_BU] => _dummy_
+                            [expected_impact_BU] => _dummy_
+                            [stakeholder_approved] => 1
+                            [stk_app_date] => 2014-12-31
+                            [responsible] => _dummy_
+                            [accountable] => _dummy_
+                            [consulted] => _dummy_
+                            [informed] => _dummy_
+                            [host:protected] => localhost
+                            [user:protected] => root
+                            [passwd:protected] => abcde
+                            [db:protected] => test_panorama
+                        )
+
+                    [TechDevNeedObject] => TechDevNeed Object
+                        (
+                            [id] => 0
+                            [name] => 
+                            [tech_requirement] => 1
+                            [dev_time_estimate] => _dummy_
+                            [dev_start_date] => 2014-12-31
+                            [dev_end_date] => 2014-12-31
+                            [responsible] => _dummy_
+                            [accountable] => _dummy_
+                            [consulted] => _dummy_
+                            [informed] => _dummy_
+                            [host:protected] => localhost
+                            [user:protected] => root
+                            [passwd:protected] => abcde
+                            [db:protected] => test_panorama
+                        )
+
+                    [ContentNeedObject] => ContentNeed Object
+                        (
+                            [id] => 0
+                            [name] => 
+                            [content_creation_enquired] => 1
+                            [content_created_by] => _dummy_
+                            [content_approval_by] => _dummy_
+                            [content_approved] => 1
+                            [responsible] => _dummy_
+                            [accountable] => _dummy_
+                            [consulted] => _dummy_
+                            [informed] => _dummy_
+                            [host:protected] => localhost
+                            [user:protected] => root
+                            [passwd:protected] => abcde
+                            [db:protected] => test_panorama
+                        )
+
+                    [TrainingNCommunicationPlanObject] => TrainingNCommunicationPlan Object
+                        (
+                            [id] => 0
+                            [name] => 
+                            [communicated_to_user] => 1
+                            [internal_BU_communicated] => _dummy_
+                            [communication_sent_date] => 2014-12-31
+                            [training_required] => 1
+                            [training_provided] => 1
+                            [training_start_date] => 2014-12-31
+                            [training_end_date] => 2014-12-31
+                            [responsible] => _dummy_
+                            [accountable] => _dummy_
+                            [consulted] => _dummy_
+                            [informed] => _dummy_
+                            [host:protected] => localhost
+                            [user:protected] => root
+                            [passwd:protected] => abcde
+                            [db:protected] => test_panorama
+                        )
+
+                    [CapabilitiesEnhancementObject] => CapabilitiesEnhancement Object
+                        (
+                            [id] => 0
+                            [name] => 
+                            [capability_enhancement] => 1
+                            [capability_enhancement_impact_areas] => _dummy_
+                            [capability_enhancement_measurement] => _dummy_
+                            [host:protected] => localhost
+                            [user:protected] => root
+                            [passwd:protected] => abcde
+                            [db:protected] => test_panorama
+                        )
+
+                    [CostBenefitObject] => CostBenefit Object
+                        (
+                            [id] => 0
+                            [name] => 
+                            [checked_by] => _dummy_
+                            [cost_assigned_to_BU] => 1
+                            [pass_on_by] => _dummy_
+                            [cost_approval] => 1
+                            [approved_by] => _dummy_
+                            [host:protected] => localhost
+                            [user:protected] => root
+                            [passwd:protected] => abcde
+                            [db:protected] => test_panorama
+                        )
+
+                    [RiskMitigationPlanObject] => RiskMitigationPlan Object
+                        (
+                            [id] => 0
+                            [name] => 
+                            [prelaunch_checklist] => _dummy_
+                            [UAT_required] => 1
+                            [UAT_conducted_by] => _dummy_
+                            [UAT_date] => 2014-12-31
+                            [vetted_by_stakeholders] => 1
+                            [feedback_taken_from] => _dummy_
+                            [feedback] => _dummy_
+                            [feedback_incorporated] => 1
+                            [feedback_incorporation_date] => 2014-12-31
+                            [final_UAT] => _dummy_
+                            [final_UAT_conducted_by] => _dummy_
+                            [final_sign_off] => 1
+                            [GTM_sign_off] => 1
+                            [SVP_sign_off] => 1
+                            [host:protected] => localhost
+                            [user:protected] => root
+                            [passwd:protected] => abcde
+                            [db:protected] => test_panorama
+                        )
+
+                    [GoLivePlanObject] => GoLivePlan Object
+                        (
+                            [id] => 0
+                            [name] => 
+                            [launch_date] => 2014-12-31
+                            [post_launch_support_needed] => 1
+                            [post_launch_support_provided_by] => _dummy_
+                            [program_status] => _dummy_
+                            [post_launch_risk_assessment_done] => 1
+                            [post_launch_risk_assessment_done_by] => _dummy_
+                            [remarks] => _dummy_
+                            [host:protected] => localhost
+                            [user:protected] => root
+                            [passwd:protected] => abcde
+                            [db:protected] => test_panorama
+                        )
+
+                    [ClosureModelObject] => ClosureModel Object
+                        (
+                            [id] => 0
+                            [name] => 
+                            [program_closure_date] => 2014-12-31
+                            [program_closure_comment] => _dummy_
+                            [host:protected] => localhost
+                            [user:protected] => root
+                            [passwd:protected] => abcde
+                            [db:protected] => test_panorama
+                        )
+
+                    [host:protected] => localhost
+                    [user:protected] => root
+                    [passwd:protected] => abcde
+                    [db:protected] => test_panorama
+                )
+
+        )
+
+    [lineItemIDs] => Array
+        (
+            [0] => 0
+        )
+
+)
+
+2015-10-15T11:24:25+05:30 :	{"result":"Recieved","kuch":"naya"}
